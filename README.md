@@ -31,10 +31,36 @@ We think that the bad UX is on the checkout page. If we want to change the drop 
 
 ![Checkout Page](src/checkout-2.jpg)
 
-From the picture we can see that the payment method is Cash/Tunai. The payment method section in the picture is like an information served to the customer. But, the fact is that Tunai infomation available to change
+From the picture we can see that the payment method section written Tunai(Cash). The payment method section in the picture is like an information served to the customer. But, the fact is that the payment method section is a button that can be clicked to change the payment method. Same case applied for promo section.
+
+### Hard to figure how to change the quantity of a food.
+
+![Checkout Page](src/checkout-1.jpg)
+
+There is no information how to change the quantity of a food in the checkout menu. The information available is only the number of quantity already ordered by customer.
 
 ### Search bar doesnt have filter option.
 
 ![Search Bar](src/no-search-filter.jpg)
 
-GrabFood's search bar doesnt have filter to filter the search result. The customer cannot search food or restaurant based on the lowest price, or nearest distance or the most rated.
+GrabFood's search bar doesnt have filter to filter the search result. The customer cannot search food or restaurant based on the lowest price, nearest distance, the most rated, or the type of the food. 
+
+# Contextual Inquiry and Analysis
+
+## Instruction Script
+
+## User Description
+
+## Transcript
+
+## Models and Annotations
+### Artifact Model
+
+### Flow Model
+
+### Cultural Model
+
+## Do's and Don't's
+### Do's
+
+### Dont's
