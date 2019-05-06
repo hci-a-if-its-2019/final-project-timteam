@@ -21,8 +21,20 @@ As the one of the most used service in Indonesia with a good competitor in the s
 
 ## Bad UI and UX
 
-### Part 1
+### Cannot change location from the checkout menu
 
 ![Checkout Page](src/checkout-1.jpg)
 
 We think that the bad UX is on the checkout page. If we want to change the drop off location, we must back to the main page of GrabFood and can't change directly from checkout page.
+
+### The payment method and promo button are plain like its not a button
+
+![Checkout Page](src/checkout-2.jpg)
+
+From the picture we can see that the payment method is Cash/Tunai. The payment method section in the picture is like an information served to the customer. But, the fact is that Tunai infomation available to change
+
+### Search bar doesnt have filter option.
+
+![Search Bar](src/no-search-filter.jpg)
+
+GrabFood's search bar doesnt have filter to filter the search result. The customer cannot search food or restaurant based on the lowest price, or nearest distance or the most rated.
