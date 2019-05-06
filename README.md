@@ -49,6 +49,12 @@ GrabFood's search bar doesnt have filter to filter the search result. The custom
 
 ## Instruction Script
 
+1. Order a random food and change the address right before checkout.
+1. Change the food quantity to 3.
+1. Remove a food from checkout menu.
+1. Change the payment method of an order.
+1. Add promo to an order and the remove it.
+
 ## User Description
 
 ## Transcript
