@@ -248,6 +248,9 @@ As the one of the most used service in Indonesia with a good competitor in the s
 
 ### Flow Model
 
+![Participant 2 Flow Model](src/par2flow.png)
+
+
 ### Cultural Model
 
 
