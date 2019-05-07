@@ -49,8 +49,9 @@ GrabFood's search bar doesnt have filter to filter the search result. The custom
 
 ## Instruction Script
 
-1. Order 2 food each with 2 quantity.
-1. Go to checkout menu and change the delivery address
+1. Find nearest fast food restaurant.
+1. Order 2 food each with 2 quantity from that restaurant.
+1. Go to checkout menu and change the delivery address to ITS.
 1. Change the first food quantity to 3.
 1. Remove the second food from checkout menu.
 1. Change the payment method of the order.
