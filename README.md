@@ -66,6 +66,13 @@ As the one of the most used service in Indonesia with a good competitor in the s
     * He always use motorcycle as transportation.
     * He likes order food.
 
+1. **Participant 2**:
+    * The participant is male, 20 years old.
+    * He is Geomatics Engineering ITS student.
+    * He had experience using GrabFood service.
+    * He always use motorcycle as transportation.
+    * His main choice for ordering food is GrabFood.
+
 ### Transcript
 
 1. **Participant 1**:
@@ -156,6 +163,74 @@ As the one of the most used service in Indonesia with a good competitor in the s
     * **11:37** Participant: Sedikit canggung dan aneh, daripada yang saya pakai, aplikasi lainnya.
     * **11:49** Me: Terimakasih ya sudah mau diwawancarai.
     * **11:52** Participant: Ya sama-sama.
+
+1. **Participant 2**:
+
+    1. **Me (Komang)** : Halo terima kasih sudah hadir diwawancarai. Sebelumnya apakah sudah tau aplikasi Grab ?
+    1. **Participant** : Ohh sudah tau.
+    1. **Me** : Pernah menggunakan layanan GrabFood ?
+    1. **Participant** : Pernah lumayan sering.
+    1. **Me** : Oke, jadi sekarang aku akan mewawancarai layanan GrabFood. Aku akan memberikan beberapa kegiatan untuk kau explore di aplikasi GrabFood.
+    1. **Participant** : Oke.
+    1. **Me** : Pertama - tama cari restoran fast food terdekat.
+    1. **Participant** : (Scrolling through menu)
+    1. **Participant** : (Found a restaurant but not the nearest) ini dia. Bener ga ?
+    1. **Me** : Gimana caranya tau dia terdekat ?
+    1. **Participant** : Jaraknya cuma 0,7 km jadi terdekat lah.
+    1. **Me** : Caranya kau nyari gimana ?
+    1. **Participant** : Scroll di halaman utama aja cari kira2 yang paling deket.
+    1. **Me** : Yakin itu yang paling deket ?
+    1. **Participant** : Hmmm.
+    1. (Participant trying to find the nearest again).
+    1. **Participant** : Ohh ini MC Donald jaraknya cuma 0.5km.
+    1. **Me** : Salah berarti tadi ya.
+    1. **Participant** : Iya.
+    1. **Me** : Lanjut ya. Order 2 jenis makanan dengan masing - masing makanan jumlahnya 2. Bebas.
+    1. **Participant** : (Ordering Food)
+    1. **Participant** : Udah.
+    1. **Me** : Masuk ke menu pembayaran.
+    1. **Participant** : Udah.
+    1. **Me** : Ganti alamat pengiriman menuju ITS.
+    1. **Participant** : (Clicks add note to driver).
+    1. (Participant Confuse)
+    1. (Participant repeatedly clicking the address information)
+    1. **Participant** : Gabisa diganti ya ini.
+    1. **Me** : Bisa kok, coba cari cara lain.
+    1. **Participant** : Hmm.
+    1. (Participant Confuse)
+    1. (Participant back to the home page of Grab)
+    1. **Participant** : Bingung aku wkwk.
+    1. (Participant trying to order again)
+    1. **Participant** : Oalah ini ya ? kampret.
+    1. **Me** : Gimana ?
+    1. **Participant** : Baru tau kalo gantinya harus dari luar, ribet.
+    1. **Me** : Coba ulangi sampai nyampe menu pembayaran.
+    1. **Participant** : Udah.
+    1. **Me** : Sekarang coba ganti makanan pertama jumlahnya jadi 3.
+    1. **Participant** : (Found the button to change quantity).
+    1. **Participant** : Udah.
+    1. **Me** : Okee. Coba hapus makanan kedua dari order.
+    1. **Participant** : (Found the way to change the quantity).
+    1. **Participant** : Udah.
+    1. **Me** : Gampang ya.
+    1. **Participant** : Iya klo itu gampang.
+    1. **Me** : Coba ganti metode pembayarannya. Jadi OVO points misalnya.
+    1. **Participant** : (Click the payment method section).
+    1. **Participant** : Udah.
+    1. **Me** : Gampang lah ya.
+    1. **Me** : Coba tambah promo untuk ordernya.
+    1. **Participant** : Promo oke.
+    1. **Participant** : (Click the promo section).
+    1. **Participant** : Udah.
+    1. **Me** : Okee. Coba batalkan promo.
+    1. **Participant** : (Click the promo section and click use later).
+    1. **Participant** : Udah.
+    1. **Me** : Okee jadi gimana pendapatnya ?
+    1. **Participant** : Iya kalo menurutku karena sering make jadi mungkin udah terbiasa tapi tetep aja tadi gabisa nyari cara ganti lokasi wkwkw.
+    1. **Me** : Jadi masih ada kesusahan ya.
+    1. **Participant** : Iya.
+    1. **Me** : Okee terima kasih.
+
 
 ### Models and Annotations
 
