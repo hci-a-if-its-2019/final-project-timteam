@@ -66,12 +66,18 @@ As the one of the most used service in Indonesia with a good competitor in the s
     * He always use motorcycle as transportation.
     * He likes order food.
 
-1. **Participant 2**:
+2. **Participant 2**:
     * The participant is male, 20 years old.
     * He is Geomatics Engineering ITS student.
     * He had experience using GrabFood service.
     * He always use motorcycle as transportation.
     * His main choice for ordering food is GrabFood.
+
+3. **Participant 3**:
+    * The participant is woman, 20 years old.
+    * She is from Informatics Student.
+    * She rarely use Grab service.
+    * She had experience using another application for ordering food.
 
 ### Transcript
 
@@ -164,6 +170,46 @@ As the one of the most used service in Indonesia with a good competitor in the s
 * **11:49** Me: Terimakasih ya sudah mau diwawancarai.
 * **11:52** Participant: Ya sama-sama.
 
+Participant 3:
+
+* **00:01** Me: Halo, terimakasih sudah mau diwawancarain,jadi aku mau nanya-nanya dari fitur/layanan dari Grab, GrabFood. Mungkin kamu bisa buka menunya langsung.
+* **00:18** Participant: Menu? Oh itu dia.
+* **00:23** Me: Oh ya sebelumnya kamu sering menggunakan GrabFood atau layanan Grab tidak?
+* **00:27** Participant: Emm.. jarang sih
+* **00:32** Me: Oh oke, mungkin kamu bisa explore terlebih dahulu, tapi dimulai dari kamu milih restaurant terdekat.
+* (Participant searching nearest restaurant.)
+* **01:03** Participant: Kamu coba cari restaurant paling deket dari kamu tuh dimana.
+* **01:07** Participant: Ini deh.
+* **01:10** Me: Oh oke, coba deh kamu order dua makanan, masing-masing banyaknya dua.
+* (Participant selecting the food.)
+* **01:26** Participant: Oke. Dua buah.
+* **01:35** Me: Kalau udah coba kamu ke halaman checkout, pembayaran.
+* (Participant go to checkout menu.)
+* **01:51** Me: Nah, di halaman checkout itu, kamu ganti halamannya ke Informatika.
+* (Participant trying to change location from checkout menu.)
+* **02:04** Participant: Sebentar ya. Emang bisa langsung ya?
+* **02:08** Me: Emang gimana caranya?
+* **02:10** Participant: Balik dulu gak sih?
+* (Back to front page of GrabFood.)
+* (Changing the location.)
+* **02:30** Participant: Terus mesen lagi dong?
+* **02:31** Me: Menurutmu, pesanannya ilang ga?
+* **02:33** Participant: Iya.. Iya ilang. Tuh ilang.
+* **02:44** Me: Oke, coba ganti jumlahnya jadi tiga.
+* **02:54** Participant: Oke, terus?
+* **02:55** Me: Kalo udah coba pesanan yang kedua itu tiga juga. Yang pertama itu kurang dua. Caranya gimana?
+* **03:16** Participant: Ini, tinggal di klik lagi trus jadi dua.
+* **03:22** Me: Coba pesanannya dibatalin gitu gimana?
+* (Decrease the counter until zero.)
+* **03:37** Me: Coba kamu checkout lagi. Kalo ganti metode pembayaran gimana?
+* **03:54** Participant: Emm.. ini?
+* **04:03** Me: Oke oke, terus klik apa?
+* (Participant change the method payment.)
+* **04:09** Me: Kalo ganti promo?
+* (Participant add promo by accidentally clicking the promo button.)
+* **04:28** Me: Oke, terimakasih.
+* **04:33** Participant: Oke, sama-sama.
+
 ### Models and Annotations
 
 ### Artifact Model
@@ -173,6 +219,7 @@ As the one of the most used service in Indonesia with a good competitor in the s
 ### Cultural Model
 
 #### **Participant 2**:
+
 1. **Me (Komang)** : Halo terima kasih sudah hadir diwawancarai. Sebelumnya apakah sudah tau aplikasi Grab ?
 1. **Participant** : Ohh sudah tau.
 1. **Me** : Pernah menggunakan layanan GrabFood ?
