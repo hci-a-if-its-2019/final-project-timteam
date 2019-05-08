@@ -164,6 +164,14 @@ As the one of the most used service in Indonesia with a good competitor in the s
 * **11:49** Me: Terimakasih ya sudah mau diwawancarai.
 * **11:52** Participant: Ya sama-sama.
 
+### Models and Annotations
+
+### Artifact Model
+
+### Flow Model
+
+### Cultural Model
+
 #### **Participant 2**:
 1. **Me (Komang)** : Halo terima kasih sudah hadir diwawancarai. Sebelumnya apakah sudah tau aplikasi Grab ?
 1. **Participant** : Ohh sudah tau.
@@ -234,14 +242,6 @@ As the one of the most used service in Indonesia with a good competitor in the s
 
 ### Artifact Model
 
-### Flow Model
-
-### Cultural Model
-
-### Models and Annotations
-
-### Artifact Model
-
 ![Participant 2 Artifact 1](src/par2artifact1.png)
 
 ![Participant 2 Artifact 2](src/par2artifact2.png)
@@ -250,8 +250,9 @@ As the one of the most used service in Indonesia with a good competitor in the s
 
 ![Participant 2 Flow Model](src/par2flow.png)
 
-
 ### Cultural Model
+
+![Participant 2 Cultural Model](src/par2cultural.png)
 
 
 ### Do's and Don't's
