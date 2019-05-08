@@ -397,17 +397,17 @@ Participant 3:
 
 ### Artifact Model
 
-![Participant 2 Artifact 1](src/par2artifact1.png)
+![Participant 2 Artifact 1](src/artifact-home.png)
 
-![Participant 2 Artifact 2](src/par2artifact2.png)
+![Participant 2 Artifact 2](src/artifact-checkout.png)
 
 ### Flow Model
 
-![Participant 2 Flow Model](src/par2flow.png)
+![Participant 2 Flow Model](src/flow.png)
 
 ### Cultural Model
 
-![Participant 2 Cultural Model](src/par2cultural.png)
+![Participant 2 Cultural Model](src/cultural.png)
 
 
 ## Sketching and Prototyping
@@ -432,7 +432,11 @@ Participant 3:
 
 #### First Design
 
+The first design mainly about simplicity yet meaningfull and easy to understand for the user. Simplicity reflected by cards in most layout.
+
 #### Second Design
+
+The second design is the alternative to the first design, such as search bar menu is more advance. The filter from first design included on search bar, so it does give more compact layout.
 
 #### Third Design
 
@@ -440,15 +444,13 @@ Participant 3:
 
 ![First Design](src/first_design.jpg)
 
-## Part B: Assumptions
+## Prototypes
 
-### 1. Hardware
+### Free Hand
 
-### 2. Users
+![Low Fidel](src/low-fidel.jpg)
 
-## Part C: Prototypes  
-
-### Prototype  
+### Prototype
 
 ![proto1](src/proto1.PNG)
 
@@ -462,4 +464,5 @@ Participant 3:
 
 ### High Fidelity Version  
 
+[Adobe XD High Fidelity](https://xd.adobe.com/view/1d424ac5-d55e-4429-61ff-dedd0ae6a7af-6b73/?fullscreen)
 
