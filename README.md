@@ -250,7 +250,7 @@ As the one of the most used service in Indonesia with a good competitor in the s
 1. **Participant** : Iya.
 1. **Me** : Okee terima kasih.
 
-Participant 3:
+#### **Participant 3:**
 
 * **00:01** Me: Halo, terimakasih sudah mau diwawancarain,jadi aku mau nanya-nanya dari fitur/layanan dari Grab, GrabFood. Mungkin kamu bisa buka menunya langsung.
 * **00:18** Participant: Menu? Oh itu dia.
@@ -428,6 +428,8 @@ Participant 3:
 
 #### Third Design
 
+![Third Design](src/third_design.jpg)
+
 ### 2. Version Differences
 
 #### First Design
@@ -439,6 +441,8 @@ The first design mainly about simplicity yet meaningfull and easy to understand 
 The second design is the alternative to the first design, such as search bar menu is more advance. The filter from first design included on search bar, so it does give more compact layout.
 
 #### Third Design
+
+The third design is a combination of the first and second designs. On the Home page, the menu most frequently ordered by the user will appear at the top after the ads. The filter page is simplified by just entering the maximum and minimum prices. On the checkout menu, the increment and decrement buttons are enlarged and the selection of payment methods is distincly.
 
 ### 3. Selected Sketch
 
