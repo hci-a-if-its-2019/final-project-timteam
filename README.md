@@ -79,6 +79,19 @@ As the one of the most used service in Indonesia with a good competitor in the s
     * She rarely use Grab service.
     * She had experience using another application for ordering food.
 
+4. **Participant 4**:
+    * The participant is male, 20 years old.
+    * He is from Electrical Engineering Student.
+    * He rarely use Grab service.
+    * He always use motorcycle as transportation.
+    * He rarely order food.
+    
+5. **Participant 5**:
+    * The participant is male, 20 years old.
+    * He isi form Informatics Student.
+    * He never use Grab Service.
+    * He always use motorcycle as transportation.
+
 ### Transcript
 
 #### **Participant 1**:
@@ -170,54 +183,6 @@ As the one of the most used service in Indonesia with a good competitor in the s
 * **11:49** Me: Terimakasih ya sudah mau diwawancarai.
 * **11:52** Participant: Ya sama-sama.
 
-Participant 3:
-
-* **00:01** Me: Halo, terimakasih sudah mau diwawancarain,jadi aku mau nanya-nanya dari fitur/layanan dari Grab, GrabFood. Mungkin kamu bisa buka menunya langsung.
-* **00:18** Participant: Menu? Oh itu dia.
-* **00:23** Me: Oh ya sebelumnya kamu sering menggunakan GrabFood atau layanan Grab tidak?
-* **00:27** Participant: Emm.. jarang sih
-* **00:32** Me: Oh oke, mungkin kamu bisa explore terlebih dahulu, tapi dimulai dari kamu milih restaurant terdekat.
-* (Participant searching nearest restaurant.)
-* **01:03** Participant: Kamu coba cari restaurant paling deket dari kamu tuh dimana.
-* **01:07** Participant: Ini deh.
-* **01:10** Me: Oh oke, coba deh kamu order dua makanan, masing-masing banyaknya dua.
-* (Participant selecting the food.)
-* **01:26** Participant: Oke. Dua buah.
-* **01:35** Me: Kalau udah coba kamu ke halaman checkout, pembayaran.
-* (Participant go to checkout menu.)
-* **01:51** Me: Nah, di halaman checkout itu, kamu ganti halamannya ke Informatika.
-* (Participant trying to change location from checkout menu.)
-* **02:04** Participant: Sebentar ya. Emang bisa langsung ya?
-* **02:08** Me: Emang gimana caranya?
-* **02:10** Participant: Balik dulu gak sih?
-* (Back to front page of GrabFood.)
-* (Changing the location.)
-* **02:30** Participant: Terus mesen lagi dong?
-* **02:31** Me: Menurutmu, pesanannya ilang ga?
-* **02:33** Participant: Iya.. Iya ilang. Tuh ilang.
-* **02:44** Me: Oke, coba ganti jumlahnya jadi tiga.
-* **02:54** Participant: Oke, terus?
-* **02:55** Me: Kalo udah coba pesanan yang kedua itu tiga juga. Yang pertama itu kurang dua. Caranya gimana?
-* **03:16** Participant: Ini, tinggal di klik lagi trus jadi dua.
-* **03:22** Me: Coba pesanannya dibatalin gitu gimana?
-* (Decrease the counter until zero.)
-* **03:37** Me: Coba kamu checkout lagi. Kalo ganti metode pembayaran gimana?
-* **03:54** Participant: Emm.. ini?
-* **04:03** Me: Oke oke, terus klik apa?
-* (Participant change the method payment.)
-* **04:09** Me: Kalo ganti promo?
-* (Participant add promo by accidentally clicking the promo button.)
-* **04:28** Me: Oke, terimakasih.
-* **04:33** Participant: Oke, sama-sama.
-
-### Models and Annotations
-
-### Artifact Model
-
-### Flow Model
-
-### Cultural Model
-
 #### **Participant 2**:
 
 1. **Me (Komang)** : Halo terima kasih sudah hadir diwawancarai. Sebelumnya apakah sudah tau aplikasi Grab ?
@@ -284,6 +249,95 @@ Participant 3:
 1. **Me** : Jadi masih ada kesusahan ya.
 1. **Participant** : Iya.
 1. **Me** : Okee terima kasih.
+
+Participant 3:
+
+* **00:01** Me: Halo, terimakasih sudah mau diwawancarain,jadi aku mau nanya-nanya dari fitur/layanan dari Grab, GrabFood. Mungkin kamu bisa buka menunya langsung.
+* **00:18** Participant: Menu? Oh itu dia.
+* **00:23** Me: Oh ya sebelumnya kamu sering menggunakan GrabFood atau layanan Grab tidak?
+* **00:27** Participant: Emm.. jarang sih
+* **00:32** Me: Oh oke, mungkin kamu bisa explore terlebih dahulu, tapi dimulai dari kamu milih restaurant terdekat.
+* (Participant searching nearest restaurant.)
+* **01:03** Participant: Kamu coba cari restaurant paling deket dari kamu tuh dimana.
+* **01:07** Participant: Ini deh.
+* **01:10** Me: Oh oke, coba deh kamu order dua makanan, masing-masing banyaknya dua.
+* (Participant selecting the food.)
+* **01:26** Participant: Oke. Dua buah.
+* **01:35** Me: Kalau udah coba kamu ke halaman checkout, pembayaran.
+* (Participant go to checkout menu.)
+* **01:51** Me: Nah, di halaman checkout itu, kamu ganti halamannya ke Informatika.
+* (Participant trying to change location from checkout menu.)
+* **02:04** Participant: Sebentar ya. Emang bisa langsung ya?
+* **02:08** Me: Emang gimana caranya?
+* **02:10** Participant: Balik dulu gak sih?
+* (Back to front page of GrabFood.)
+* (Changing the location.)
+* **02:30** Participant: Terus mesen lagi dong?
+* **02:31** Me: Menurutmu, pesanannya ilang ga?
+* **02:33** Participant: Iya.. Iya ilang. Tuh ilang.
+* **02:44** Me: Oke, coba ganti jumlahnya jadi tiga.
+* **02:54** Participant: Oke, terus?
+* **02:55** Me: Kalo udah coba pesanan yang kedua itu tiga juga. Yang pertama itu kurang dua. Caranya gimana?
+* **03:16** Participant: Ini, tinggal di klik lagi trus jadi dua.
+* **03:22** Me: Coba pesanannya dibatalin gitu gimana?
+* (Decrease the counter until zero.)
+* **03:37** Me: Coba kamu checkout lagi. Kalo ganti metode pembayaran gimana?
+* **03:54** Participant: Emm.. ini?
+* **04:03** Me: Oke oke, terus klik apa?
+* (Participant change the method payment.)
+* **04:09** Me: Kalo ganti promo?
+* (Participant add promo by accidentally clicking the promo button.)
+* **04:28** Me: Oke, terimakasih.
+* **04:33** Participant: Oke, sama-sama.
+
+#### **Participant 4**:
+
+* Me (Syauqi): Terima kasih sudah hadir untuk diwawancarai. Sebelumnya sudah tahu aplikasi Grab?
+* Participant: Sudah tahu.
+* Me: Sudah pernah menggunakan layanan GrabFood?
+* Partcipant: Sudah pernah.
+* Me: Sering apa jarang?
+* Participant: Jarang sih, tapi lebih dari sekali.
+* Me: Ini saya ingin wawancara lebih ke GrabFoodnya sih. Nanti saya akan ngasih beberapa tugas untuk mengexplore aplikasi GrabFood. Yang pertama, coba nyari restoran terdekat.
+* Participant: (Scrolling the page) Sebenarnya ini udah ketahuan sih, dari ini terdekat. Jaraknya 0.6, 0.8 kan itu yang terdekat.
+* Me: Yakin?
+* Participant: Iya. Ini jaraknya 0.6, 0.8, 0.9 sudah urut. Nih 3.8, 4.0.
+* Me: Coba lebih scroll ke bawah.
+* Participant: (Scrolling the page) Oh iya, jaraknya kurang lagi. Tapi tetap yang paling deket 0.6 di atas tadi sih. Ada gak fitur buat urutinnya? Gak ada ya?
+* Me: Coba buka pilihan fast food. Dan cari restoran terdekat.
+* Participant: Ini paling atas 2 kilo. (Scrolling the page) Oh ini ada yang 1.2 kilo. 1.3 ini.
+* Me: Yang paling atas tadi berapa? 2 kilo ya?
+* Participant: Iya. Ini yang kutemuin paling deket 2 kilo. Kurang ada fitur search nih.
+* Me: Nah terus coba pesen 2 makanan dengan masing-masing pesen 2. Bebas.
+* Participant: Oke. Ini kutambahkan ke keranjang. Ini kutambahin 2 lagi ke keranjang. Udah.
+* Me: Oke, coba langsung ke menu pembayaran.
+* Participant: Hm. (Go to the checkout page).
+* Me: Oke terus coba ganti alamat pengiriman.
+* Participant: Ganti alamat pengiriman. (Press the address text repeatedly). Gak bisa. Bisa keluar dari halaman ini kan? Bebas kan?
+* Me: Iya.
+* Participant: Kalau ganti alamat pengirimannya tuh disini. (Back to the home of GrabFood). Ini udah.
+* Me: Oke. Terus coba ulangi yang tadi sampai ke menu pembayaran yang tadi.
+* Participant: Oke, ini kita coba pesen KFC, 2, ini 2.
+* Me: Coba hapus makanan kedua dari order.
+* Participant: Ini hapus. Oke udah.
+* Me: Coba ganti metode pembayarannya, misalnya ovo.
+* Participant: Ini. Udah.
+* Me: Coba tambahkan promo untuk ordernya.
+* Participant: Udah.
+* Me: Coba hapus promonya.
+* Participant: Udah.
+* Me: Gimana nih pengalamannya?
+* Participant: Ini udah simpel, mudah digunakan. Cuma kekurangannya di masalah filter tadi. Misalnya di fast food ini ada filter dari harga terendah atau jarak terdekat. Meskipun di sini ada keterangan jaraknya tapi gak ada fitur urutkan. Kurangnya itu sih.
+* Me: Sepertinya itu saja, terima kasih sudah ingin diwawancarai.
+* Participant: Ashiaap.
+
+### Models and Annotations
+
+### Artifact Model
+
+### Flow Model
+
+### Cultural Model
 
 ### Models and Annotations
 
