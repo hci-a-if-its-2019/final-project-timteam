@@ -391,13 +391,7 @@ Participant 3:
 1. Me: Oke, sudah terima kasih. Tolong jangan dipesan makanannnya, Pak. nanti saya yang bayar.
 1. Participant: Hahaha.
 
-### Models and Annotations
-
-### Artifact Model
-
-### Flow Model
-
-### Cultural Model
+---
 
 ### Models and Annotations
 
@@ -416,12 +410,6 @@ Participant 3:
 ![Participant 2 Cultural Model](src/par2cultural.png)
 
 
-### Do's and Don't's
-
-#### Do's
-
-#### Dont's
-
 ## Sketching and Prototyping
 
 ---
@@ -432,7 +420,11 @@ Participant 3:
 
 #### First Design
 
+![First Design](src/first_design.jpg)
+
 #### Second Design
+
+![Second Design](src/second_design.jpg)
 
 #### Third Design
 
@@ -446,7 +438,7 @@ Participant 3:
 
 ### 3. Selected Sketch
 
-### 4. Design Rationale
+![First Design](src/first_design.jpg)
 
 ## Part B: Assumptions
 
@@ -455,8 +447,19 @@ Participant 3:
 ### 2. Users
 
 ## Part C: Prototypes  
-### Freehand  
 
 ### Prototype  
 
+![proto1](src/proto1.PNG)
+
+![proto2](src/proto2.PNG)
+
+![proto3](src/proto3.PNG)
+
+![proto4](src/proto4.PNG)
+
+![proto5](src/proto5.PNG)
+
 ### High Fidelity Version  
+
+
