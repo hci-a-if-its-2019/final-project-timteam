@@ -88,7 +88,7 @@ As the one of the most used service in Indonesia with a good competitor in the s
     
 5. **Participant 5**:
     * The participant is male, 20 years old.
-    * He isi form Informatics Student.
+    * He is from Informatics Student.
     * He never use Grab Service.
     * He always use motorcycle as transportation.
 
@@ -330,6 +330,66 @@ Participant 3:
 1. Participant: Ini udah simpel, mudah digunakan. Cuma kekurangannya di masalah filter tadi. Misalnya di fast food ini ada filter dari harga terendah atau jarak terdekat. Meskipun di sini ada keterangan jaraknya tapi gak ada fitur urutkan. Kurangnya itu sih.
 1. Me: Sepertinya itu saja, terima kasih sudah ingin diwawancarai.
 1. Participant: Ashiaap.
+
+#### **Participant 5**:
+1. Me (Syauqi): Terima kasih sudah hadir untuk diwawancarai. Sebelumnya sudah tahu aplikasi Grab?
+1. Participant: Tahu.
+1. Me: Apa kamu sering menggunakan layanan dari Grab?
+1. Participant: Gak pernah sih.
+1. Me: Gak pernah? Serius?
+1. Participant: Iya.
+1. Me: Oke. Yang mau saya ingin wawancara di sini adalah tentang GrabFood. Coba kamu cari restoran yang terdekat.
+1. Participant: (Point at the smartphone with confused face)
+1. Me: Silahkan bereksplorasi sendiri pak.
+1. Participant: (Use sign language, with confused face)
+1. Me: Ngomong, Pak, biar saya tidak bingung nulisnya nanti.
+1. Participant: Ini gimana saya nyari restoran terdekatnya?
+1. Me: Dieksplor aja, Pak.
+1. Participant: Ini, Lazizaa keputih?
+1. Me: Ada yang lebih dekat gak?
+1. Participant: Pecel Madiun Pak Jito Kalisari?
+1. Me: Emang itu paling deket, Pak?
+1. Participant: 19 menit sih.
+1. Me: Jaraknya, Pak.
+1. Participant: 1.2 kilo.
+1. Me: Ada yang lebih deket gak?
+1. Participant: Ini sih, Lazizaa keputih 0.6 kilometer.
+1. Me: Coba cari ada yang lebih deket lagi gak dari itu?
+1. Participant: Gak ada anj*r, ini yang bawah udah jauh-jauh. Saya gak nemu ya.
+1. Me: Nah coba di scroll dulu.
+1. Participant: Ini makin ke bawah makin jauh.
+1. Me: Ayo kita lihat.
+1. Participant: (Scrolling the page).
+1. Me: Nah ini balik lagi ke 1 kilometer. Berarti gak ada yang lebih deket lagi dari Lazizaa ya, Pak.
+1. Participant: Iya.
+1. Me: Ya udah kita lanjut aja. Coba pilih satu restoran, bebas.
+1. Participant: Swiwings Mulyosari.
+1. Me: Terus coba order makanan masing-masing 2.
+1. Participant: (Order the food)
+1. Me: Coba langsung di check out.
+1. Participant: (Checkout the order)
+1. Me: Coba ganti alamat pengiriman.
+1. Participant: (Press the address text repeatedly)
+1. Me: Gak bisa? Bapak ngomong, Pak, jangan membisu wkwk
+1. Participant: Ini kayaknya gak bisa deh diganti.
+1. Me: Jadi gantinya itu harus kembali ke awal. Terus tekan ini.
+1. Participant: Oh gitu.
+1. Me: Terus coba kembali ke tadi, pesen lagi kayak tadi.
+1. Participant: Ini pesanannya ke reset ya?
+1. Me: Iya.
+1. Participant: Saya pesen di Medanwei di Kalisari. Mahal-mahal ya. Saya pesen 2 ya?
+1. Me: Iya. Coba ganti jumlah pesanan yang pertama jadi 3.
+1. Participant: Bisa bisa.
+1. Me: Terus coba hapus makanan yang kedua.
+1. Participant: Udah.
+1. Me: Coba ganti payment method nya.
+1. Participant: Udah bisa.
+1. Me: Coba tambahkan promonya.
+1. Participant: Udah.
+1. Me: Terus coba hapus.
+1. Participant: Udah.
+1. Me: Oke, sudah terima kasih. Tolong jangan dipesan makanannnya, Pak. nanti saya yang bayar.
+1. Participant: Hahaha.
 
 ### Models and Annotations
 
