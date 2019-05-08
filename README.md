@@ -292,44 +292,44 @@ Participant 3:
 
 #### **Participant 4**:
 
-* Me (Syauqi): Terima kasih sudah hadir untuk diwawancarai. Sebelumnya sudah tahu aplikasi Grab?
-* Participant: Sudah tahu.
-* Me: Sudah pernah menggunakan layanan GrabFood?
-* Partcipant: Sudah pernah.
-* Me: Sering apa jarang?
-* Participant: Jarang sih, tapi lebih dari sekali.
-* Me: Ini saya ingin wawancara lebih ke GrabFoodnya sih. Nanti saya akan ngasih beberapa tugas untuk mengexplore aplikasi GrabFood. Yang pertama, coba nyari restoran terdekat.
-* Participant: (Scrolling the page) Sebenarnya ini udah ketahuan sih, dari ini terdekat. Jaraknya 0.6, 0.8 kan itu yang terdekat.
-* Me: Yakin?
-* Participant: Iya. Ini jaraknya 0.6, 0.8, 0.9 sudah urut. Nih 3.8, 4.0.
-* Me: Coba lebih scroll ke bawah.
-* Participant: (Scrolling the page) Oh iya, jaraknya kurang lagi. Tapi tetap yang paling deket 0.6 di atas tadi sih. Ada gak fitur buat urutinnya? Gak ada ya?
-* Me: Coba buka pilihan fast food. Dan cari restoran terdekat.
-* Participant: Ini paling atas 2 kilo. (Scrolling the page) Oh ini ada yang 1.2 kilo. 1.3 ini.
-* Me: Yang paling atas tadi berapa? 2 kilo ya?
-* Participant: Iya. Ini yang kutemuin paling deket 2 kilo. Kurang ada fitur search nih.
-* Me: Nah terus coba pesen 2 makanan dengan masing-masing pesen 2. Bebas.
-* Participant: Oke. Ini kutambahkan ke keranjang. Ini kutambahin 2 lagi ke keranjang. Udah.
-* Me: Oke, coba langsung ke menu pembayaran.
-* Participant: Hm. (Go to the checkout page).
-* Me: Oke terus coba ganti alamat pengiriman.
-* Participant: Ganti alamat pengiriman. (Press the address text repeatedly). Gak bisa. Bisa keluar dari halaman ini kan? Bebas kan?
-* Me: Iya.
-* Participant: Kalau ganti alamat pengirimannya tuh disini. (Back to the home of GrabFood). Ini udah.
-* Me: Oke. Terus coba ulangi yang tadi sampai ke menu pembayaran yang tadi.
-* Participant: Oke, ini kita coba pesen KFC, 2, ini 2.
-* Me: Coba hapus makanan kedua dari order.
-* Participant: Ini hapus. Oke udah.
-* Me: Coba ganti metode pembayarannya, misalnya ovo.
-* Participant: Ini. Udah.
-* Me: Coba tambahkan promo untuk ordernya.
-* Participant: Udah.
-* Me: Coba hapus promonya.
-* Participant: Udah.
-* Me: Gimana nih pengalamannya?
-* Participant: Ini udah simpel, mudah digunakan. Cuma kekurangannya di masalah filter tadi. Misalnya di fast food ini ada filter dari harga terendah atau jarak terdekat. Meskipun di sini ada keterangan jaraknya tapi gak ada fitur urutkan. Kurangnya itu sih.
-* Me: Sepertinya itu saja, terima kasih sudah ingin diwawancarai.
-* Participant: Ashiaap.
+1. Me (Syauqi): Terima kasih sudah hadir untuk diwawancarai. Sebelumnya sudah tahu aplikasi Grab?
+1. Participant: Sudah tahu.
+1. Me: Sudah pernah menggunakan layanan GrabFood?
+1. Partcipant: Sudah pernah.
+1. Me: Sering apa jarang?
+1. Participant: Jarang sih, tapi lebih dari sekali.
+1. Me: Ini saya ingin wawancara lebih ke GrabFoodnya sih. Nanti saya akan ngasih beberapa tugas untuk mengexplore aplikasi GrabFood. Yang pertama, coba nyari restoran terdekat.
+1. Participant: (Scrolling the page) Sebenarnya ini udah ketahuan sih, dari ini terdekat. Jaraknya 0.6, 0.8 kan itu yang terdekat.
+1. Me: Yakin?
+1. Participant: Iya. Ini jaraknya 0.6, 0.8, 0.9 sudah urut. Nih 3.8, 4.0.
+1. Me: Coba lebih scroll ke bawah.
+1. Participant: (Scrolling the page) Oh iya, jaraknya kurang lagi. Tapi tetap yang paling deket 0.6 di atas tadi sih. Ada gak fitur buat urutinnya? Gak ada ya?
+1. Me: Coba buka pilihan fast food. Dan cari restoran terdekat.
+1. Participant: Ini paling atas 2 kilo. (Scrolling the page) Oh ini ada yang 1.2 kilo. 1.3 ini.
+1. Me: Yang paling atas tadi berapa? 2 kilo ya?
+1. Participant: Iya. Ini yang kutemuin paling deket 2 kilo. Kurang ada fitur search nih.
+1. Me: Nah terus coba pesen 2 makanan dengan masing-masing pesen 2. Bebas.
+1. Participant: Oke. Ini kutambahkan ke keranjang. Ini kutambahin 2 lagi ke keranjang. Udah.
+1. Me: Oke, coba langsung ke menu pembayaran.
+1. Participant: Hm. (Go to the checkout page).
+1. Me: Oke terus coba ganti alamat pengiriman.
+1. Participant: Ganti alamat pengiriman. (Press the address text repeatedly). Gak bisa. Bisa keluar dari halaman ini kan? Bebas kan?
+1. Me: Iya.
+1. Participant: Kalau ganti alamat pengirimannya tuh disini. (Back to the home of GrabFood). Ini udah.
+1. Me: Oke. Terus coba ulangi yang tadi sampai ke menu pembayaran yang tadi.
+1. Participant: Oke, ini kita coba pesen KFC, 2, ini 2.
+1. Me: Coba hapus makanan kedua dari order.
+1. Participant: Ini hapus. Oke udah.
+1. Me: Coba ganti metode pembayarannya, misalnya ovo.
+1. Participant: Ini. Udah.
+1. Me: Coba tambahkan promo untuk ordernya.
+1. Participant: Udah.
+1. Me: Coba hapus promonya.
+1. Participant: Udah.
+1. Me: Gimana nih pengalamannya?
+1. Participant: Ini udah simpel, mudah digunakan. Cuma kekurangannya di masalah filter tadi. Misalnya di fast food ini ada filter dari harga terendah atau jarak terdekat. Meskipun di sini ada keterangan jaraknya tapi gak ada fitur urutkan. Kurangnya itu sih.
+1. Me: Sepertinya itu saja, terima kasih sudah ingin diwawancarai.
+1. Participant: Ashiaap.
 
 ### Models and Annotations
 
