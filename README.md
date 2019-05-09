@@ -450,6 +450,22 @@ The third design is a combination of the first and second designs. On the Home p
 
 ## Prototypes
 
+### Assumption
+
+#### Hardware
+
+1. Running on android device
+2. Minimal ram 2GB
+3. Screen Resolution minimal 600x800
+4. Touchscreen
+
+#### User
+
+1. Familiar with smartphone
+2. Familiar with internet
+3. Understand the button function
+4. Capable to operate the touchscreen
+
 ### Free Hand
 
 ![Low Fidel](src/low-fidel.jpg)
