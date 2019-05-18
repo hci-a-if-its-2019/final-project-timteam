@@ -1,11 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:grab_mockup_app/filter.dart';
+import 'package:grab_mockup_app/slide_left.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Color.fromRGBO(249, 249, 249, 1),
       appBar: AppBar(
         leading: IconButton(
             onPressed: null,
@@ -246,7 +248,9 @@ class SearchBar extends StatelessWidget{
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
                       FlatButton(
-                        onPressed: (){},
+                        onPressed: (){
+                          Navigator.push(context, SlideLeftRoute(widget: FilterScreen()));
+                        },
                         padding: EdgeInsets.all(0.0),
                         materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                         child: Column(
@@ -281,7 +285,7 @@ class ListData{
   String title;
   double dist;
   double waitTime;
-  double promo;
+  double promo = -1;
   String imgSrc;
   ListData({this.title,
     this.dist,
@@ -325,73 +329,74 @@ class _ListCardState extends State<ListCard>{
         ),
         Container(
           width: MediaQuery.of(context).size.width,
-          height: 4.5 * widget.size,
-          margin: EdgeInsets.fromLTRB(15, 20, 0, 20),
+          height: 4.7 * widget.size,
+          margin: EdgeInsets.fromLTRB(0, 20, 0, 20),
           child: ListView.builder(
               physics: BouncingScrollPhysics(),
               scrollDirection: Axis.horizontal,
               shrinkWrap: true,
               itemCount: widget.data.length,
               itemBuilder: (BuildContext context, int index){
-                return Card(
-                  elevation: 5.0,
-                  margin: EdgeInsets.fromLTRB(15, 0, 15, 0),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10.0),
-                  ),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      border: Border.all(
-                        color: Colors.grey,
-                        width: 1,
-                      ),
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(10.0),
-                      ),
+                return Container(
+                  padding: EdgeInsets.all(5),
+                  child: Card(
+                    elevation: 1.0,
+                    margin: (index == 0) ? EdgeInsets.fromLTRB(30, 0, 15, 0) : (index == widget.data.length - 1) ? EdgeInsets.fromLTRB(15, 0, 30, 0) : EdgeInsets.fromLTRB(15, 0, 15, 0),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10.0),
                     ),
-                    child: Column(
-                      children: <Widget>[
-                        ClipRRect(
-                          borderRadius: BorderRadius.only(
-                            topLeft: Radius.circular(10.0),
-                            topRight: Radius.circular(10.0),
-                          ),
-                          child: Image.network(
-                            widget.data[index].imgSrc,
-                            fit: BoxFit.cover,
-                            width: 3 * widget.size,
-                            height: 3 * widget.size,
+                    child: Container(
+                      child: Column(
+                        children: <Widget>[
+                          ClipRRect(
+                            borderRadius: BorderRadius.only(
+                              topLeft: Radius.circular(10.0),
+                              topRight: Radius.circular(10.0),
+                            ),
+                            child: Image.network(
+                              widget.data[index].imgSrc,
+                              fit: BoxFit.cover,
+                              width: 3 * widget.size,
+                              height: 3 * widget.size,
 
+                            ),
                           ),
-                        ),
-                        Container(
-                          margin: EdgeInsets.all(5),
-                          child: Column(
-                            children: <Widget>[
-                              Container(
-                                alignment: Alignment(-1, 0),
-                                child: Text(
-                                  widget.data[index].title,
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.w900,
-                                    fontSize: widget.fontSize,
+                          Container(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: <Widget>[
+                                Container(
+                                  margin: EdgeInsets.only(top: widget.size/10),
+                                  alignment: Alignment(1, 0),
+                                  child: Text(
+                                    widget.data[index].title,
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.w900,
+                                      fontSize: widget.fontSize,
+                                    ),
                                   ),
                                 ),
-                              ),
-                              Container(
-                                alignment: Alignment(-1, 0),
-                                child: Text(
-                                  (widget.data[index].dist/1000).toStringAsFixed(1) + ' km - ' + widget.data[index].waitTime.toStringAsFixed(0) + ' mins ',
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: widget.fontSize - 2,
+                                Container(
+                                  alignment: Alignment(-1, 0),
+                                  margin: EdgeInsets.only(top: widget.size/10),
+                                  child: Text(
+                                    (widget.data[index].dist/1000).toStringAsFixed(1) + ' km - ' + widget.data[index].waitTime.toStringAsFixed(0) + ' mins ',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.w400,
+                                      fontSize: widget.fontSize - 2,
+                                    ),
                                   ),
                                 ),
-                              ),
-                            ],
-                          ),
-                        )
-                      ],
+                                Promo(
+                                  promo: widget.data[index].promo,
+                                  size: widget.size,
+                                  fontSize: widget.fontSize,
+                                ),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 );
@@ -400,5 +405,35 @@ class _ListCardState extends State<ListCard>{
         ),
       ],
     );
+  }
+}
+
+class Promo extends StatelessWidget{
+  @override
+  final double promo;
+  final double size;
+  final double fontSize;
+  const Promo({this.promo, this.size, this.fontSize});
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    if (this.promo == null){
+      return SizedBox(
+        width: 0,
+        height: 0,
+      );
+    }else{
+      return Container(
+        alignment: Alignment(-1, 0),
+        margin: EdgeInsets.only(top: size/10),
+        child: Text(
+          'Diskon ' + this.promo.toStringAsFixed(0) + '%',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: this.fontSize - 2,
+            color: Colors.green
+          ),
+        ),
+      );
+    }
   }
 }
