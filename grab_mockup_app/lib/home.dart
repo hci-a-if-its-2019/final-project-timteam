@@ -2,12 +2,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:grab_mockup_app/filter.dart';
 import 'package:grab_mockup_app/slide_left.dart';
+import 'package:grab_mockup_app/GrabColor.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(249, 249, 249, 1),
+      backgroundColor: GrabColor.white,
       appBar: AppBar(
         leading: IconButton(
             onPressed: null,
@@ -48,6 +49,26 @@ class HomeScreen extends StatelessWidget {
         child: HomeBody(),
         physics: BouncingScrollPhysics(),
       ),
+      floatingActionButton: Container(
+        width: MediaQuery.of(context).size.width * 0.8,
+        height: 40,
+        child: FloatingActionButton(
+          onPressed: (){
+            Navigator.pushNamed(context, '/checkout');
+          },
+          child: Text(
+            'Checkout Order',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          backgroundColor: GrabColor.green,
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(15.0)
+          ),
+        ),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }
@@ -163,7 +184,7 @@ class HomeBody extends StatelessWidget{
                         ),
                         Container(
                           height: 15,
-                          color: Color.fromRGBO(225, 225, 225, 1),
+                          color: GrabColor.backgroundGrey,
                         ),
                       ],
                     )
@@ -237,7 +258,7 @@ class SearchBar extends StatelessWidget{
                         ),
                       ],
                     ),
-                    color: Color.fromRGBO(235, 235, 235, 1),
+                    color: GrabColor.searchGrey,
                     shape: StadiumBorder(),
                     onPressed: (){},
                   ),

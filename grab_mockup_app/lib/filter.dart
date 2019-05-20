@@ -1,12 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_range_slider/flutter_range_slider.dart';
+import 'package:grab_mockup_app/GrabColor.dart';
 
 class FilterScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(249, 249, 249, 1),
+      backgroundColor: GrabColor.white,
       appBar: AppBar(
         leading: IconButton(
             onPressed: (){
@@ -23,22 +24,11 @@ class FilterScreen extends StatelessWidget {
         ),
         centerTitle: true,
         actions: <Widget>[
-          Container(
-            margin: EdgeInsets.all(18),
-            width: 60,
-            child: FlatButton(
-              child: Text(
-                '50000',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontWeight: FontWeight.bold,
-                  fontSize: 8,
-                ),
-              ),
-              color: Colors.grey,
-              shape: StadiumBorder(),
-              onPressed: (){},
-            ),
+          IconButton(
+            onPressed: (){
+              Navigator.pop(context);
+            },
+            icon: Icon(Icons.check, color: GrabColor.green,),
           )
         ],
 //          title: const Text('Test', style: TextStyle(color: Colors.blue),),
@@ -130,26 +120,7 @@ class FilterBody extends StatelessWidget{
                 ),
                 Container(
                   margin: EdgeInsets.only(left: 20, top: 20, right: 20),
-                  child: Column(
-                    children: <Widget>[
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: <Widget>[
-                          CustomButton(
-                            text: 'Lowest',
-                            width: MediaQuery.of(context).size.width * 0.4,
-                            fontSize: 16,
-                          ),
-                          CustomButton(
-                            text: 'Highest',
-                            width: MediaQuery.of(context).size.width * 0.4,
-                            fontSize: 16,
-                          ),
-                        ],
-                      ),
-                      GreenRangeSlider()
-                    ],
-                  ),
+                  child: PriceSection(),
                 ),
                 Container(
                   margin: EdgeInsets.only(left: 30, top: 20, right: 30),
@@ -263,22 +234,45 @@ class CustomButton extends StatefulWidget{
   final double width;
   final double fontSize;
   final double height;
+  final bool state;
+  final bool onPressed;
   const CustomButton({
     this.text,
     this.width,
     this.fontSize,
     this.height,
+    this.state,
+    this.onPressed,
   });
-  _CustomButton createState () => _CustomButton();
+  _CustomButton createState () => _CustomButton(
+    state: (this.state == null) ? false : this.state,
+    onPressed: (this.onPressed == null) ? false : this.onPressed,
+  );
 }
 
 class _CustomButton extends State<CustomButton>{
   @override
-  bool state = false;
-  Color green = Color.fromRGBO(0, 177, 64, 1);
+  bool state = null;
+  bool onPressed = null;
+  _CustomButton({this.state, this.onPressed});
+  checkStatus(){
+    if (this.state == null) this.state = false;
+    if (this.onPressed == null) this.onPressed = false;
+    print(this.state);
+  }
+  void didUpdateWidget(Widget oldWidget){
+    this.state = (widget.state == null) ? false : widget.state;
+    super.didUpdateWidget(oldWidget);
+  }
+  setStateBaru(){
+    setState(() {
+      this.state = !this.state;
+    });
+  }
   Widget build(BuildContext context) {
     // TODO: implement build
-    if (state){
+    this.checkStatus();
+    if (this.state){
       return Container(
         width: widget.width,
         height: widget.height,
@@ -292,14 +286,10 @@ class _CustomButton extends State<CustomButton>{
               fontSize: widget.fontSize,
             ),
           ),
-          color: green,
+          color: GrabColor.green,
           shape: StadiumBorder(),
           padding: EdgeInsets.all(0),
-          onPressed: (){
-            setState(() {
-              this.state = !this.state;
-            });
-          },
+          onPressed: (this.onPressed) ? (){} : setStateBaru,
         ),
       );
     }else{
@@ -317,16 +307,12 @@ class _CustomButton extends State<CustomButton>{
             ),
           ),
           borderSide: BorderSide(
-            color: green,
+            color: GrabColor.green,
           ),
           color: Colors.white,
           shape: StadiumBorder(),
           padding: EdgeInsets.all(0),
-          onPressed: (){
-            setState(() {
-              this.state = !this.state;
-            });
-          },
+          onPressed: (this.onPressed) ? (){} : setStateBaru,
         ),
       );
     }
@@ -501,6 +487,73 @@ class _GreenRangeSlider extends State<GreenRangeSlider>{
           _upperValue = upper;
         });
       }),
+    );
+  }
+}
+
+class PriceSection extends StatefulWidget{
+  const PriceSection();
+  _PriceSection createState () => _PriceSection();
+}
+
+class _PriceSection extends State<PriceSection>{
+  @override
+  bool _state = false;
+  bool _state2 = false;
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Column(
+      children: <Widget>[
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            GestureDetector(
+              behavior: HitTestBehavior.opaque,
+              onTap: (){
+                setState(() {
+//                  print(this._state);
+                  this._state = !this._state;
+                  if (this._state && this._state2){
+                    this._state2 = false;
+                  }
+//                  print(this._state);
+                });
+              },
+              child: IgnorePointer(
+                child: CustomButton(
+                  text: 'Lowest',
+                  width: MediaQuery.of(context).size.width * 0.4,
+                  fontSize: 16,
+                  state: this._state,
+                  onPressed: true,
+                ),
+              ),
+            ),
+            GestureDetector(
+              behavior: HitTestBehavior.opaque,
+              onTap: (){
+                setState(() {
+//                    print(this._state2);
+                    this._state2 = !this._state2;
+                    if (this._state && this._state2){
+                      this._state = false;
+                    }
+                });
+              },
+              child: IgnorePointer(
+                child: CustomButton(
+                  text: 'Highest',
+                  width: MediaQuery.of(context).size.width * 0.4,
+                  fontSize: 16,
+                  state: this._state2,
+                  onPressed: true,
+                ),
+              ),
+            ),
+          ],
+        ),
+        GreenRangeSlider()
+      ],
     );
   }
 }

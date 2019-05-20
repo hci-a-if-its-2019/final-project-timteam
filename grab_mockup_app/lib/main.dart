@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:grab_mockup_app/home.dart';
 import 'package:grab_mockup_app/filter.dart';
+import 'package:grab_mockup_app/checkout.dart';
 
 void main() {
   initializeDateFormatting('en_US', null).then((_) => runApp(MyApp()));
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
         // When we navigate to the "/" route, build the FirstScreen Widget
         '/': (context) => HomeScreen(),
         '/filter': (context) => FilterScreen(),
+        '/checkout': (context) => CheckoutScreen(),
         // When we navigate to the "/second" route, build the SecondScreen Widget
       },
     );
