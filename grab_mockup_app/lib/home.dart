@@ -241,26 +241,33 @@ class SearchBar extends StatelessWidget{
                 Container(
                   width: MediaQuery.of(context).size.width * 0.8,
                   margin: EdgeInsets.only(left: 15),
-                  child: FlatButton(
-                    child: Row(
-                      children: <Widget>[
-                        Icon(
-                          Icons.search,
-                          color: Colors.grey,
+                  child: TextField(
+                    decoration: InputDecoration(
+                        contentPadding: EdgeInsets.all(10),
+                        prefixIcon: Icon(
+                            Icons.search,
+                          color: Colors.grey[800],
                         ),
-                        Text(
-                          'Find a dish or restaurant',
-                          style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 14,
-                              fontWeight: FontWeight.w300
+                        border: OutlineInputBorder(
+                          borderRadius: const BorderRadius.all(
+                            const Radius.circular(100.0),
                           ),
+                          borderSide: BorderSide.none
                         ),
-                      ],
+                        filled: true,
+                        hintStyle: new TextStyle(
+                            color: Colors.grey[800],
+                            fontSize: 14
+                        ),
+                        hintText: "Find dish or restaurant",
+                        fillColor: GrabColor.searchGrey,
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: const BorderRadius.all(
+                            const Radius.circular(100.0),
+                          ),
+                          borderSide: BorderSide(color: GrabColor.green),
+                        )
                     ),
-                    color: GrabColor.searchGrey,
-                    shape: StadiumBorder(),
-                    onPressed: (){},
                   ),
                 ),
                 Expanded(

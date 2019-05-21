@@ -486,3 +486,65 @@ The third design is a combination of the first and second designs. On the Home p
 
 [Adobe XD High Fidelity](https://xd.adobe.com/view/1d424ac5-d55e-4429-61ff-dedd0ae6a7af-6b73/?fullscreen)
 
+# Usability Evaluation and Prototyping (again)
+
+## Operating the Prototype
+[Video for prototype](https://youtu.be/IW_tQBkwvVs)
+
+---
+
+## Part A: Usability Evaluation
+
+### 1. Brief Description of Participants
+
+#### Description of Participant 1
+
+#### Description of Participant 2
+
+### 2. Evaluation Script
+1. Find nearest fast food restaurant.
+1. Order 2 food each with 2 quantity from that restaurant.
+1. Go to checkout menu and change the delivery address to ITS.
+1. Change the first food quantity to 3.
+1. Remove the second food from checkout menu.
+1. Change the payment method of the order.
+1. Add promo to an order and the remove it.
+
+
+### 3. Transcript
+
+#### Transcript with Participant 1
+
+#### Transcript with Participant 2
+
+### 4. Feedback and Incidence Analysis
+
+#### OBSERVATION 1
+![Observation 1 screen](img/observation1.png)
+
+ - **Reference**:   
+    - [P1#11] 
+ - **Feedback**: 
+    - [P1]
+ - **Incidence**:  
+    - [P1#11]
+ - **Reason**:  
+    - [P1#11]
+ - **Resolution**: 
+
+
+## Part B: Prototyping (again)
+
+### Sketch
+
+   - Resolution for observation 1.
+   
+   - Resolution for observation 2.
+   
+   - Resolution for observation 6.
+   
+### Design Rationale
+
+### High-Fidelity Interactive-Prototype
+
+### Mockup Apps
