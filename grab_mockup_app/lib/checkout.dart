@@ -58,13 +58,12 @@ class CheckoutBody extends StatelessWidget{
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          SingleChildScrollView(
-            child: TopSection(
-              data: topSection,
-            ),
+          TopSection(
+            data: topSection,
           ),
           Expanded(
             child: Container(
+              height: double.maxFinite,
               color: GrabColor.white,
               child: Container(
                 width: MediaQuery.of(context).size.width,
@@ -163,6 +162,44 @@ class Section extends StatelessWidget{
   }
 }
 
+List<Menu> OrderDummy = [
+  Menu(
+    judul: 'Nasi Goreng Jawa',
+    harga: 20000,
+    quantity: 2,
+  ),
+  Menu(
+    judul: 'Mie Goreng Kalimantan',
+    harga: 30000,
+    quantity: 1,
+    notes: 'Pedas'
+  ),
+  Menu(
+    judul: 'Soto Ayam',
+    harga: 15000,
+    quantity: 1,
+  ),
+  Menu(
+    judul: 'Es Teh',
+    harga: 5000,
+    quantity: 2,
+    notes: '1 tawar 1 manis'
+  ),
+];
+
+class Menu {
+  int quantity;
+  String judul;
+  String notes;
+  int harga;
+  Menu({
+    this.quantity,
+    this.judul,
+    this.notes,
+    this.harga,
+  });
+}
+
 List<Widget> topSection = [
   Container(
     margin: EdgeInsets.only(top: 15),
@@ -239,73 +276,8 @@ List<Widget> topSection = [
       ),
     ),
   ),
-  Container(
-    margin: EdgeInsets.only(top: 15),
-    padding: EdgeInsets.all(15),
-    color: GrabColor.white,
-    child: Section(
-      title: 'Summary',
-      child: Container(
-        margin: EdgeInsets.only(top: 10),
-        child: Column(
-          children: <Widget>[
-            Container(
-              child: Column(
-                children: <Widget>[
-                  Container(
-                    margin: EdgeInsets.only(bottom: 10),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: <Widget>[
-                        Text(
-                          'Subtotal',
-                        ),
-                        Text(
-                          '10000',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.only(bottom: 10),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: <Widget>[
-                        Text('Taxes'),
-                        Text(
-                          '10000',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  Container(
-                    margin: EdgeInsets.only(bottom: 10),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: <Widget>[
-                        Text('Delivery Fee'),
-                        Text(
-                          '10000',
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-    ),
+  Summary(
+    orderan: OrderDummy,
   ),
   Container(
     margin: EdgeInsets.only(top: 15),
@@ -417,3 +389,196 @@ class TopSection extends StatelessWidget{
   }
 }
 
+class Summary extends StatefulWidget{
+  final List<Menu> orderan;
+  const Summary({
+    this.orderan,
+  });
+  _Summary createState() => _Summary();
+}
+
+class _Summary extends State<Summary>{
+  @override
+  int totalHarga;
+  List<Menu> fixOrder;
+  void initState(){
+    super.initState();
+    this.totalHarga = 0;
+    this.fixOrder = widget.orderan;
+    for (int i = 0; i < this.fixOrder.length; i++){
+      this.totalHarga = this.totalHarga + (this.fixOrder[i].harga * this.fixOrder[i].quantity);
+    }
+  }
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Container(
+      margin: EdgeInsets.only(top: 15),
+      padding: EdgeInsets.all(15),
+      color: GrabColor.white,
+      child: Section(
+        title: 'Summary',
+        child: Container(
+          margin: EdgeInsets.only(top: 10),
+          child: Column(
+            children: <Widget>[
+              IgnorePointer(
+                child: ListView.builder(
+                  shrinkWrap: true,
+                  itemCount: this.fixOrder.length,
+                  itemBuilder: (BuildContext context, int index){
+                    return Container(
+                      padding: EdgeInsets.symmetric(vertical: 4),
+                      margin: EdgeInsets.symmetric(vertical: 4),
+                      decoration: BoxDecoration(
+                          border: Border(
+                              bottom: BorderSide(
+                                color: GrabColor.backgroundGrey,
+                              )
+                          )
+                      ),
+                      child: IntrinsicHeight(
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: <Widget>[
+                            Container(
+                              child: Column(
+                                children: <Widget>[
+                                  Card(
+                                    child: Container(
+                                      padding: EdgeInsets.all(10),
+                                      child: Text(
+                                        this.fixOrder[index].quantity.toString(),
+                                      ),
+                                    ),
+                                    shape: RoundedRectangleBorder(
+                                        borderRadius: BorderRadius.all(
+                                          Radius.circular(5),
+                                        ),
+                                        side: BorderSide(
+                                            color: GrabColor.backgroundGrey
+                                        )
+                                    ),
+                                  ),
+                                  Container(
+                                    margin: EdgeInsets.all(5),
+                                    child: Text(
+                                      'Edit',
+                                      style: TextStyle(
+                                        color: GrabColor.blue,
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Expanded(
+                              child: Container(
+                                margin: EdgeInsets.all(5),
+//                                color: Colors.blue,
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: <Widget>[
+                                    Container(
+                                      margin: EdgeInsets.all(5),
+                                      child: Text(
+                                        this.fixOrder[index].judul,
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                        ),
+                                      ),
+                                    ),
+                                    Container(
+                                      margin: EdgeInsets.symmetric(horizontal: 5),
+                                      child: Text(
+                                          (this.fixOrder[index].notes != null) ? this.fixOrder[index].notes : '',
+                                        style: TextStyle(
+                                          fontSize: 14,
+                                          color: Colors.grey,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Container(
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: <Widget>[
+                                  Text(
+                                      (this.fixOrder[index].harga * this.fixOrder[index].quantity).toString()
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      )
+                    );
+                  },
+                ),
+              ),
+              Container(
+                child: Column(
+                  children: <Widget>[
+                    Container(
+                      margin: EdgeInsets.only(bottom: 10),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: <Widget>[
+                          Text(
+                            'Subtotal',
+                          ),
+                          Text(
+                            this.totalHarga.toString(),
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(bottom: 10),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: <Widget>[
+                          Text('Taxes'),
+                          Text(
+                            '0',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.only(bottom: 10),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: <Widget>[
+                          Text('Delivery Fee'),
+                          Text(
+                            '6000',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}

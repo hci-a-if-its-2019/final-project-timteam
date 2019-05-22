@@ -498,22 +498,96 @@ The third design is a combination of the first and second designs. On the Home p
 ### 1. Brief Description of Participants
 
 #### Description of Participant 1
+* A Man.
+* 20 years old.
+* Currently studying Pharmacy at Airlangga University.
+* Sometimes use Grab but not frequently.
 
 #### Description of Participant 2
 
 ### 2. Evaluation Script
 1. Find nearest fast food restaurant.
-1. Order 2 food each with 2 quantity from that restaurant.
 1. Go to checkout menu and change the delivery address to ITS.
 1. Change the first food quantity to 3.
 1. Remove the second food from checkout menu.
 1. Change the payment method of the order.
-1. Add promo to an order and the remove it.
+1. Add promo to an order.
 
 
 ### 3. Transcript
 
 #### Transcript with Participant 1
+1. **Me** : Halo terima kasih telah meluangkan waktu maap nih merepotkan.
+1. **Participant** : Okee sama sama, tidak masalah.
+1. **Me** : Jadi sekarang ini aku mau meninjau prototype yang telah aku buat. Sebelumnya pernah pake layanan GrabFood ?
+1. **Participant** : Pernah tapi jarang.
+1. **Me** : Okee jadi disini prototype yang ditinjau adalah layanan GrabFood ya. Jadi karena ini prototype mungkin nanti gak seperti aplikasinya.
+1. **Participant** : Okee.
+1. **Me** : Jadi kumulai aja ya.
+1. **Me** : Coba cari restaurant fast food terdekat.
+1. **Participant** : Okee.
+1. **Participant** : (Clicking search bar).
+1. **Participant** : (Clicking filter option beside search bar).
+1. **Participant** : (Apply filter FastFood and near by).
+1. **Participant** : (Confuse) Ini udah kesimpen ga ?
+1. **Me** : Udah harusnya.
+1. **Participant** : (Redo again to make sure).
+1. **Participant** : Okee udah.
+1. **Me** : Okee gimana tadi ?
+1. **Participant** : Awalnya bingung ngesearchnya gimana, tapi ada tombol di kanan search bar yang biasanya untuk filter eh ternyata benar. Sama di filternya ga ada tombol save/apply gitu jadi tadi bingung.
+1. **Me** : Okee. Lanjut ya. Coba ke checkout menu dan ganti alamatnya ke ITS.
+1. **Participant** : Okee.
+1. **Participant** : (Go to checkout menu).
+1. **Participant** : (Click change mark on the right side of address)
+1. **Participant** : Gabisa diganti.
+1. **Me** : Oh prototype emang gitu, udah berarti yaa.
+1. **Participant** : Okedeh.
+1. **Me** : Gimana tadi ?
+1. **Participant** : Gampang sih, di sebelah alamatnya udah adat tulisan change jelas.
+1. **Me** : Okeey. Lanjut ya. Kan ada 2 menu tuh. Coba ganti menu pertama jadi jumlahnya 3.
+1. **Participant** : Okee.
+1. **Participant** : (Click edit under quantity).
+1. **Participant** : (Add to 3).
+1. **Participant** : Udah.
+1. **Me** : Okee gimana ?
+1. **Participant** : Gampang juga, tinggal edit trus tambah.
+1. **Me** : Okee.
+1. **Me** : Lanjut berarti. Coba hapus menu kedua.
+1. **Participant** : Okee.
+1. **Participant** : (Click edit under quantity).
+1. **Participant** : Ini harus diubah ke 0 dlu kan baru remove ?
+1. **Me** : Iyaa.
+1. **Participant** : Udah berarti.
+1. **Me** : Okee gimana tadi ?
+1. **Participant** : Karena gabisa di ganti jadi nol jadi aku harus nanya dlu tadi wkwkw.
+1. **Me** : wkwkw maklum prototype.
+1. **Participant** : Siapp.
+1. **Me** : Lanjut yaa. Coba ganti metode pembayarannya.
+1. **Participant** : Okeeh.
+1. **Participant** : (Click change mark on the right side of cash).
+1. **Participant** : (Changing the payment method).
+1. **Participant** : Udah ni.
+1. **Me** : Okee gampang ya ?.
+1. **Participant** : Gampang ada tulisan changenya. Rasanya di grab ga ada tulisan gitu wkwk.
+1. **Me** : Wkwkw emang. Lanjut ya coba tambah promo.
+1. **Participant** : Okee.
+1. **Participant** : (Click change mark on the right side of cash).
+1. **Participant** : (Trying to add promo).
+1. **Participant** : Anggap udah ni ya.
+1. **Me** : Iyaa udah itu. Gimana ?
+1. **Participant** : Sama kaya ganti pembayaran tadi, gampang wkwkw.
+1. **Me** : Okee siap.
+1. **Me** : Jadi itu tadi udah semua rangkaian meninjau prototypenya.
+1. **Participant** : Woke.
+1. **Me** : Apakah ada sesuatu yang pengen disampaikan mengenai prototypenya ?
+1. **Participant** : Hmm itu sih yang tadi filternya ga ada save. Sama kalo bisa dibawah logo filternya dikasi tulisan apa gitu buat bilang itu logo tombol ngapain.
+1. **Me** : Okee. Adalagi ?
+1. **Participant** : Hmm tampilannya bagus sih. Oh ini di tampilan awal, kalo mau liat best deal secara keseluruhan gitu gimana ?
+1. **Me** : Ohh jadi kaya View All gitu ya.
+1. **Participant** : Iyaa.
+1. **Me** : Okee noted. Terima kasih ya.
+1. **Participant** : Sama2.
+
 
 #### Transcript with Participant 2
 
