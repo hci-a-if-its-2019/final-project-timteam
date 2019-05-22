@@ -39,6 +39,26 @@ class FilterScreen extends StatelessWidget {
         child: FilterBody(),
         physics: BouncingScrollPhysics(),
       ),
+      floatingActionButton: Container(
+        width: MediaQuery.of(context).size.width * 0.5,
+        height: 40,
+        child: FloatingActionButton(
+          onPressed: (){
+            Navigator.pop(context);
+          },
+          child: Text(
+            'Apply Filter',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          backgroundColor: GrabColor.green,
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(15.0)
+          ),
+        ),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }
@@ -207,7 +227,7 @@ class FilterBody extends StatelessWidget{
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.only(left: 20, top: 20, right: 20),
+                  margin: EdgeInsets.only(left: 20, top: 20, right: 20, bottom: 20),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[

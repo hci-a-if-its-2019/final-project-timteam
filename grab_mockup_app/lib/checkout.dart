@@ -351,7 +351,7 @@ class TopSection extends StatelessWidget{
                                 ),
                                 FlatButton(
                                   onPressed: (){
-                                    Navigator.pushNamed(context, '/cash');
+                                    Navigator.pushNamed(context, '/promo');
                                   },
                                   child: Container(
                                     margin: EdgeInsets.only(top: 5),

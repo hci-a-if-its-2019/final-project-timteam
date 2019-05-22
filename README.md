@@ -489,7 +489,7 @@ The third design is a combination of the first and second designs. On the Home p
 # Usability Evaluation and Prototyping (again)
 
 ## Operating the Prototype
-[Video for prototype](https://youtu.be/IW_tQBkwvVs)
+[Video for prototype](https://youtu.be/0NZXNMaUi_E)
 
 ---
 
@@ -739,17 +739,81 @@ The third design is a combination of the first and second designs. On the Home p
 ### 4. Feedback and Incidence Analysis
 
 #### OBSERVATION 1
-![Observation 1 screen](img/observation1.png)
+![Observation 1 screen](src/observation1.png)
 
  - **Reference**:   
-    - [P1#11] 
+    - [P1#13] : "(Confuse) Ini udah kesimpen ga ?"
  - **Feedback**: 
-    - [P1]
+    - [P1] : There is no button or anything to indicate that the filter choosen by user is already saved.
  - **Incidence**:  
-    - [P1#11]
+    - [P1#13] : The user confuse and redo it again to make sure. 
  - **Reason**:  
-    - [P1#11]
+    - [P1#11] : No message or confirmation button to save/apply the filter.
  - **Resolution**: 
+    - Add Check in the app bar to save the filter.
+    - Add apply button in the bottom of filter option to apply the filter.
+
+#### OBSERVATION 2
+![Observation 2 screen](src/Observation2.png)
+
+ - **Reference**:   
+    - [P1#64] : "Sama kalo bisa dibawah logo filternya dikasi tulisan apa gitu buat bilang itu logo tombol ngapain"
+    - [P2#10] : "Participant: (Clicking filter icon) Oh ini ya pilihannya?"
+    - [P4#3] : "(User found filter button but first he doesn't aware of it.)"
+ - **Feedback**: 
+    - [P1] : It is better to add text to clarify what is the button use for.
+    - [P2] : Asking if this button is for filtering.
+ - **Incidence**:  
+    - [P1#13] : Complaining about the interfaces.
+    - [P2#10] : Not aware what is the button use for. 
+    - [P4#3] : Not aware of filter button.
+ - **Reason**:  
+    - [P1#13] : The icon button is not clear enough.
+    - [P2#3] : The icon button is not clear enough.
+    - [P4#3] : The icon button is not clear enough.
+ - **Resolution**: 
+    - Add filter text under the button.
+
+#### OBSERVATION 3
+![Observation 3 screen](src/Observation3.png)
+
+ - **Reference**:   
+    - [P1#66] : "Hmm tampilannya bagus sih".
+    - [P2#38] : "Lebih gampang sih dibanding Grab aslinya emang."
+    - [P3#32] : "Gampang sih, paham semua kok instruksinya"
+    - [P4#21] : "Dibandingkan sebelumnya, ini lebih ok karena banyak yang ditambahkan disini terus perbaikan gitu."
+    - [P5#21] : "Ok sih ini udah lengkap sama jelas ada faster pickup nya."
+ - **Feedback**: 
+    - All the user give compliment about the UI and UX. Easier than the real GrabApps and the interfaces are good.
+ - **Incidence**:  None
+ - **Reason**:  None
+ - **Resolution**: None
+
+ #### OBSERVATION 4
+![Observation 4 screen](src/Observation4.png)
+
+ - **Reference**:   
+    - [P1#66] : "Oh ini di tampilan awal, kalo mau liat best deal secara keseluruhan gitu gimana ?".
+ - **Feedback**: 
+    - [P1] : The user asking what to do if he wants to view all restaurant in best deal.
+ - **Incidence**: 
+    - [P1] : Complaining about the missing feature of view all.
+ - **Reason**:
+    - [P1] : There is no option to go to view all.
+ - **Resolution**:
+    - Add view all besides all submenu. 
+
+#### OBSERVATION 5
+![Observation 5 screen](src/Observation5.png)
+
+ - **Reference**:   
+    - [P2#16] : "Bagus sih, Qi, jadi lebih gampang gitu, kalau kemarin kan jadi gak jelas kan jaraknya dari yang jaraknya deket, makin jauh, tapi kembali ke dekat lagi".
+    - [P4#5] : "Aku lihat ini bisa milih kategori terus harga bisa di sort. Tampilan bagus sih, jelas."
+ - **Feedback**: 
+    - The filter feature is helpful.
+ - **Incidence**: None
+ - **Reason**: None
+ - **Resolution**: None
 
 
 ## Part B: Prototyping (again)
@@ -757,10 +821,10 @@ The third design is a combination of the first and second designs. On the Home p
 ### Sketch
 
    - Resolution for observation 1.
+   ![Observation 5 screen](src/resolution1.jpg)
    
-   - Resolution for observation 2.
-   
-   - Resolution for observation 6.
+   - Resolution for observation 2 and 4.
+   ![Observation 5 screen](src/resolution2.jpg)
    
 ### Design Rationale
 

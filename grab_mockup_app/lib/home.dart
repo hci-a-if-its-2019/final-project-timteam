@@ -349,15 +349,39 @@ class _ListCardState extends State<ListCard>{
     return Column(
       children: <Widget>[
         Container(
-          margin: EdgeInsets.symmetric(horizontal: 30),
-          alignment: Alignment(-1, 0),
-          child: Text(
-            widget.title,
-            style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              color: Colors.black,
-            ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 30),
+                alignment: Alignment(-1, 0),
+                child: Text(
+                  widget.title,
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 30),
+                alignment: Alignment(-1, 0),
+                child: FlatButton(
+                  onPressed: (){},
+                  padding: EdgeInsets.all(0.0),
+                  materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  child: Text(
+                    'View All',
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      color: GrabColor.green,
+                    ),
+                  ),
+                )
+              ),
+            ],
           ),
         ),
         Container(
