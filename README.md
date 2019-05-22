@@ -504,6 +504,18 @@ The third design is a combination of the first and second designs. On the Home p
 * Sometimes use Grab but not frequently.
 
 #### Description of Participant 2
+* The participant is male, 20 years old.
+* He is from Electrical Engineering Student.
+* He rarely use Grab service.
+* He always use motorcycle as transportation.
+* He rarely order food from Grab.
+
+#### Description of Participant 3
+* The participant is male, 19 years old.
+* He is from Geomatics Engineering ITS student.
+* He rarely use Grab service.
+* He always use motorcycle as transportation.
+* He rarely order food from Grab.
 
 ### 2. Evaluation Script
 1. Find nearest fast food restaurant.
@@ -588,8 +600,85 @@ The third design is a combination of the first and second designs. On the Home p
 1. **Me** : Okee noted. Terima kasih ya.
 1. **Participant** : Sama2.
 
-
 #### Transcript with Participant 2
+1. Me: Halo, terima kasih sudah mau diwawancarai lagi, maaf merepotkan.
+1. Participant: Iya sama-sama, Qi.
+1. Me: Jadi sekarang ini aku mau meninjau kembali design UI yang sudah ku buat sama teman sekelompok ku. Silahkan dilihat dulu sebentar.
+1. Participant: Oke.
+1. Me: Langsung ku mulai ya. Coba cari restaurant fast food terdekat.
+1. Participant: Yang mana, Qi? Ini sama semua jaraknya, fast food semua.
+1. Me: Ya anggap saja tidak begitu rupanya.
+1. Participant: Hmmm. (Clicking search bar) Search nya juga gak bisa di klik.
+1. Me: Ya memang untuk text fill nya gak bisa. Coba yang lain deh.
+1. Participant: (Clicking filter icon) Oh ini ya pilihannya?
+1. Me: Iya. 
+1. Participant: Tapi gak bisa diklik ini, Qi.
+1. Me: Iya anggap saja bisa.
+1. Participant: Oke.
+1. Me: Kalau ditambah fitur seperti ini dibanding kemarin gimana?
+1. Participant: Bagus sih, Qi, jadi lebih gampang gitu, kalau kemarin kan jadi gak jelas kan jaraknya dari yang jaraknya deket, makin jauh, tapi kembali ke dekat lagi.
+1. Me: Oke. Lanjut ya. Coba checkout dan ganti alamatnya ke ITS.
+1. Participant: (Click checkout button and click change to deliver address and click the map) Gak bisa diapa"in juga.
+1. Me: Ya anggap saja bisa. Rencananya memang bisa diganti disitu.
+1. Participant: Oke.
+1. Me: Gimana dibanding kemarin?
+1. Participant: Lebih gampang sih, karena gak usah harus kembali ke menu awal tadi. Dan memang harusnya gantinya di dalam sini sih. Yang aplikasi grabnya kemarin repot banget.
+1. Me: Oke. Terus lanjut. Coba ganti jumlah order makanan pertama jadi 3.
+1. Participant: (Clicking edit in food quantity and click +) Kok langsung keluar?
+1. Me: Ya itu sudah benar. Ya namanya juga prototype.
+1. Participant: Oke.
+1. Me: Terus lanjut. Coba hapus menu kedua.
+1. Participant:  (Clicking edit in food quantity and click -) Kalau tekan ini sampai jumlahnya 0 sama kayak hapus kan?
+1. Me: Iya. Gimana tadi?
+1. Participant: Gampang sih. Soalnya ada tulisan editnya, dan warnanya juga beda, jadi gampang kelihatan.
+1. Me: Terus coba ganti metode pembayarannya.
+1. Participant: (Clicking the cash in payment) Udah kan?
+1. Me: Iya udah. Terus coba tambahkan promo.
+1. Participant: (Clicking the promo) Kok kosong promonya?
+1. Me: Anggap saja ada, haha. Memang disitu kok tambah promo, udah benar.
+1. Participant: Oke.
+1. Me: Gimana prototypenya?
+1. Participant: Lebih gampang sih dibanding Grab aslinya emang.
+1. Me: Ada yang ingin disampaikan gak dari prototype ini?
+1. Participant: Udah bagus sih.
+1. Me: Oke. Terima kasih waktunya.
+1. Participant: Oke, sama-sama.
+
+#### Transcript with Participant 3
+1. Me: Halo, terima kasih sudah mau diwawancarai.
+1. Participant: Iya, sama-sama, Mas
+1. Me: Jadi sekarang ini aku mau meninjau kembali hasil design UI yang kelompokku buat untuk aplikasi Grab Food. Sebelumnya udah pernah pakai layanan Grab Food?
+1. Participant: Pernah, tapi jarang. Baru 2 kali kayaknya.
+1. Me: Oke. Langsung mulai ya. Nih coba liat dulu prototypenya. Mohon maklum ya, masih prototype kalau masih banyak kekurangannya.
+1. Participant: Oh, iya, Mas.
+1. Me: Pertama-tama coba cari restoran fast food terdekat.
+1. Participant: Ini sama semua jaraknya, Mas.
+1. Me: Ya anggap saja beda-beda. Terus coba cari mana nih kira-kira untuk nyarinya.
+1. Participant: (Clicking the filter icon beside search bar) Di sini, Mas?
+1. Me: Iya terus coba gimana biar nemu restoran fast food terdekat.
+1. Participant: Yang pilihan-pilihan ini kan?
+1. Me: Iya.
+1. Participant: Tapi kok gak bisa diklik, Mas?
+1. Me: Anggap saja bisa. Udah bener kok begitu. Lanjut ya. Coba cari pergi ke check out menu dan ubah lokasi pengiriman.
+1. Participant: (Clicking check out button and delivery address) Gak bisa diklik ini, Mas. (Clicking the map) Mapnya juga gak bisa diklik.
+1. Me: Iya memang begitu, sudah benar kok.
+1. Participant: Oh iya.
+1. Me: Terus lanjut ya. Coba ganti jumlah makanan yang pertama jadi 3.
+1. Participant: (Clicking the quantity of the food) Ini kan?
+1. Me: Iya.
+1. Participant: (Clicking the + icon) Kok langsung kelur?
+1. Me: Hehe. Harap Maklum. Terus coba hapus makanan kedua dari menu.
+1. Participant: (Clicking the quantity of the second food) Tinggal dikurangin sampai 0 kan?
+1. Me: Iya bener. Terus coba ganti metode pembayaran.
+1. Participant:(Clicking the cash in payments) Di sini kan?
+1. Me: Iya bener. Terus coba tambahkan promo.
+1. Participant: (Clicking the promo) Kok gak ada promo nya?
+1. Me: Iya anggap saja ada. Udah bener di situ kok.
+1. Participant: Oke.
+1. Me: Jadi bagaimana nih pengalaman menggunakan UI ini?
+1. Participant: Gampang sih, paham semua kok instruksinya. Cuma ya itu, karena banyak tadi yang gak bisa di klik jadi bingung. Kalau beneran jalan sih ya gampang.
+1. Me: Oke. Terima kasih atas tanggapannya/
+1. Participant: Iya, sama-sama, Mas.
 
 ### 4. Feedback and Incidence Analysis
 
