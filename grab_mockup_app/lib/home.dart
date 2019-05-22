@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:grab_mockup_app/filter.dart';
 import 'package:grab_mockup_app/slide_left.dart';
 import 'package:grab_mockup_app/GrabColor.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:grab_mockup_app/map.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -141,7 +143,9 @@ class HomeBody extends StatelessWidget{
                       children: <Widget>[
                         FlatButton(
                           materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
-                          onPressed: (){},
+                          onPressed: (){
+                            Navigator.pushNamed(context, '/map');
+                          },
                           padding: EdgeInsets.all(0.0),
                           child: Stack(
                             children: <Widget>[
@@ -158,7 +162,7 @@ class HomeBody extends StatelessWidget{
                                   ),
                                   Container(
                                     child: Icon(
-                                      Icons.map,
+                                      FontAwesomeIcons.mapMarkerAlt,
                                       color: Colors.red,
                                     ),
                                     margin: EdgeInsets.fromLTRB(10, 0, 10, 0),
@@ -339,6 +343,7 @@ class ListCard extends StatefulWidget{
 
 class _ListCardState extends State<ListCard>{
   @override
+
   Widget build(BuildContext context) {
     // TODO: implement build
     return Column(

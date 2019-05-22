@@ -3,6 +3,9 @@ import 'package:intl/date_symbol_data_local.dart';
 import 'package:grab_mockup_app/home.dart';
 import 'package:grab_mockup_app/filter.dart';
 import 'package:grab_mockup_app/checkout.dart';
+import 'package:grab_mockup_app/map.dart';
+import 'package:grab_mockup_app/cash.dart';
+import 'package:grab_mockup_app/promo.dart';
 
 void main() {
   initializeDateFormatting('en_US', null).then((_) => runApp(MyApp()));
@@ -21,6 +24,9 @@ class MyApp extends StatelessWidget {
         '/': (context) => HomeScreen(),
         '/filter': (context) => FilterScreen(),
         '/checkout': (context) => CheckoutScreen(),
+        '/map': (context) => MapScreen(),
+        '/cash': (context) => CashScreen(),
+        '/promo': (context) => PromoScreen(),
         // When we navigate to the "/second" route, build the SecondScreen Widget
       },
     );
