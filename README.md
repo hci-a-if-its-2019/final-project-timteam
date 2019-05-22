@@ -680,6 +680,32 @@ The third design is a combination of the first and second designs. On the Home p
 1. Me: Oke. Terima kasih atas tanggapannya/
 1. Participant: Iya, sama-sama, Mas.
 
+### Participant 4
+
+1. Me : Halo, aku mau nanya-nanya lagi tapi kali ini konteksnya beda. Mungkin kamu bisa explore dulu. Kalo udah kamu coba cari tau cara sort atau fitur filter.
+1. Participant: Ok.
+1. (User found filter button but first he doesn't aware of it.)
+1. Me : Gimana?
+1. Participant : Aku lihat ini bisa milih kategori terus harga bisa di sort. Tampilan bagus sih, jelas.
+1. Me : Ok kamu kembali ke menu awal. Ada yang kurang tidak?
+1. (Pressing nearby menu)
+1. Participant : Ini emang gabisa di click ya?
+1. Me : Kalo itu memang gabisa. Coba lanjutnya kamu pilih restauran disitu. Ke menu checkout.
+1. (Go to checkout menu)
+1. Me : Ada yang berbeda tidak dari sebelumnya?
+1. Participant : Hmm ada sih. Ini lokasi udah bisa di ganti. 
+1. (Click change location menu) 
+1. Participant: Terus disini ada opsi input manual, ada yang dari GPS, terus point untuk faster pickup nya.
+1. Me : Lalu apa lagi?
+1. (Back to previous menu)
+1. Participant: Terus ini ordernya jelas kalo bisa di ganti karena ada edit text nya. Terus apa lagi ya. Selebihnya sama sih kecuali ini lebih jelas tambah promonya
+1. Me : Berarti sama ya dengan sebelumnya? Ada yang ingin di tanggapi?
+1. Participant : Ga ada sih. Udah jelas ini, udah ada edit, tambah promo, ganti payment. Apalagi udah bisa ganti alamat tanpa back menu.
+1. Me : Berarti ini gaada saran atau gimana?
+1. Participant : Ga ada harusnya. Ini udah sesuai sama kebutuhan ku sih. Dibandingkan sebelumnya, ini lebih ok karena banyak yang ditambahkan disini terus perbaikan gitu.
+1. Me : Ok cukup disini aja ya. Terimakasih atas waktunya.
+1. Participant : Sama-sama.
+
 ### 4. Feedback and Incidence Analysis
 
 #### OBSERVATION 1
