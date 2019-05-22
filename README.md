@@ -682,7 +682,7 @@ The third design is a combination of the first and second designs. On the Home p
 
 ### Participant 4
 
-1. Me : Halo, aku mau nanya-nanya lagi tapi kali ini konteksnya beda. Mungkin kamu bisa explore dulu. Kalo udah kamu coba cari tau cara sort atau fitur filter.
+1. Me (lix) : Halo, aku mau nanya-nanya lagi tapi kali ini konteksnya beda. Mungkin kamu bisa explore dulu. Kalo udah kamu coba cari tau cara sort atau fitur filter.
 1. Participant: Ok.
 1. (User found filter button but first he doesn't aware of it.)
 1. Me : Gimana?
@@ -704,6 +704,36 @@ The third design is a combination of the first and second designs. On the Home p
 1. Me : Berarti ini gaada saran atau gimana?
 1. Participant : Ga ada harusnya. Ini udah sesuai sama kebutuhan ku sih. Dibandingkan sebelumnya, ini lebih ok karena banyak yang ditambahkan disini terus perbaikan gitu.
 1. Me : Ok cukup disini aja ya. Terimakasih atas waktunya.
+1. Participant : Sama-sama.
+
+#### Participant 5
+
+1. Me (lix) : Halo aku mau wawancara tentang aplikasi ini. Mungkin kamu bisa explore dulu gimana tampilannya.
+(Participant scrolling app)
+1. Participant : Loh ini memang tidak bisa di klik ya menu nearby nya?
+1. Me : Oh kalo itu memang tidak bisa karena ini hanya prototype aja. Kurang lebih gambaran aplikasi seperti ini. Mungkin kamu bisa cari tau gimana cara sort atau filter makanan.
+(Participant search the button)
+1. Participant : Oh ini ya? Wah ada menu seperti ini ya.
+1. Me : Nah coba kamu explore. 
+1. (Participant explore filter menu)
+1. Participant : Ini ada kategori gitu ya. Ok juga. 
+1. Me : Kamu paham ga gunanya slider itu apa?
+1. (Slide the slider button)
+1. Participant : Oh ini buat sort harga bukan sih? Harus nya iya sih
+1. Me : Betul. Ini buat sort harga gitu. Ok next. Coba kamu pilih restauran di menu sebelumnya. Terus checkout menu.
+1. (Back to previous menu)
+1. Me : Ada yang mau di komentari?
+1. (Searching the interesting part)
+1. Participant : Oh ini buat remove atau tambah makanan ya? 
+1. Me : Iya. Jelas kan?
+1. Participant : Jelas kok. Terus ini ganti payment sama tambah promo juga.
+1. Me : Kalau ganti lokasi gimana?
+1. Participant : Oh ini. Wah bisa ganti disini ya langsung gausah back lagi.
+1. Me : Ada yang mau di komentari di menu ini?
+1. Participant : Ok sih ini udah lengkap sama jelas ada faster pickup nya.
+1. Me : Ok. Udah itu aja? Ada yang mau di sampaikan?
+1. Participant : Gaada sih. Udah hehe. Udah jelas soalnya.
+1. Me : Ok terimakasih ya partisipasi nya.
 1. Participant : Sama-sama.
 
 ### 4. Feedback and Incidence Analysis
