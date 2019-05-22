@@ -829,5 +829,7 @@ The third design is a combination of the first and second designs. On the Home p
 ### Design Rationale
 
 ### High-Fidelity Interactive-Prototype
+The High-Fidelity can be accessed by downloading the xd file in this repository.
 
 ### Mockup Apps
+The Mockup apps for android can be accessed by downloading the apk file in this repository. If you see the warning from Google, just click install anyway.
