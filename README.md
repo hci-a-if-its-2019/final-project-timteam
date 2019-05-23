@@ -517,6 +517,22 @@ The third design is a combination of the first and second designs. On the Home p
 * He always use motorcycle as transportation.
 * He rarely order food from Grab.
 
+#### Description of Participant 4
+* The participant is male, 20 years old.
+* He is from Electrical Engineering ITS student.
+* He rarely use Grab service.
+* He always use motorcycle as transportation.
+* He rarely order food from Grab.
+
+
+#### Description of Participant 5
+* The participant is male, 20 years old.
+* He is from Informatics  ITS student.
+* He rarely use Grab service.
+* He always use another service app.
+* He likes order food with online service
+
+
 ### 2. Evaluation Script
 1. Find nearest fast food restaurant.
 1. Go to checkout menu and change the delivery address to ITS.
