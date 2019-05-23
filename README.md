@@ -844,6 +844,9 @@ The third design is a combination of the first and second designs. On the Home p
    
 ### Design Rationale
 
+From this usability evaluation, we get more deep about how user interact mostly with the feature from GrabFood service. We change a bit of design from original application to make easier access for the user in general.
+
+
 ### High-Fidelity Interactive-Prototype
 The High-Fidelity can be accessed by downloading the xd file in this repository.
 
