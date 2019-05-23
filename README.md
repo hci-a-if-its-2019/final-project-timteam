@@ -739,7 +739,7 @@ The third design is a combination of the first and second designs. On the Home p
 ### 4. Feedback and Incidence Analysis
 
 #### OBSERVATION 1
-![Observation 1 screen](src/observation1.png)
+![Observation 1 screen](src/Observation1.png)
 
  - **Reference**:   
     - [P1#13] : "(Confuse) Ini udah kesimpen ga ?"
